@@ -1,11 +1,8 @@
 {
-  "name": "npm-workspaces",
+  "name": "package-1",
   "version": "1.0.0",
-  "description": "https://docs.npmjs.com/cli/v10/using-npm/workspaces",
+  "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/peppermintc/npm-workspaces/issues"
   },
-  "homepage": "https://github.com/peppermintc/npm-workspaces#readme",
-  "workspaces": [
-    "package-1"
-  ]
+  "homepage": "https://github.com/peppermintc/npm-workspaces#readme"
 }
