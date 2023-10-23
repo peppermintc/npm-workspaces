@@ -10,7 +10,7 @@
     "test:root": "echo \"root: no test specified\"",
     "test:package1": "npm run test --workspace=package-1",
     "test:package2": "npm run test --workspace=package-2",
-    "test:all": "npm run test:package1 && npm run test:package2"
+    "test:all": "npm run test --workspace=package-1 --workspace=package-2"
   },
   "repository": {
     "type": "git",
