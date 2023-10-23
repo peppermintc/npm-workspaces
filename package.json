@@ -10,7 +10,7 @@
     "test:root": "echo \"root: no test specified\"",
     "test:package1": "npm run test --workspace=package-1",
     "test:package2": "npm run test --workspace=package-2",
-    "test:all": "npm run test --workspace=package-1 --workspace=package-2"
+    "test:all": "npm run test --workspaces --if-present"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/peppermintc/npm-workspaces#readme",
   "workspaces": [
-    "package-1",
-    "package-2"
+    "packages/package-1",
+    "packages/package-2"
   ]
 }
