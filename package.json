@@ -1,0 +1,22 @@
+{
+  "name": "npm-workspaces",
+  "version": "1.0.0",
+  "description": "https://docs.npmjs.com/cli/v10/using-npm/workspaces",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peppermintc/npm-workspaces.git"
+  },
+  "author": "peppermintc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peppermintc/npm-workspaces/issues"
+  },
+  "homepage": "https://github.com/peppermintc/npm-workspaces#readme"
+}
