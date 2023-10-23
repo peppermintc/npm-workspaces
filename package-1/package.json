@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/peppermintc/npm-workspaces/issues"
   },
-  "homepage": "https://github.com/peppermintc/npm-workspaces#readme"
+  "homepage": "https://github.com/peppermintc/npm-workspaces#readme",
+  "dependencies": {
+    "abbrev": "^2.0.0"
+  }
 }
