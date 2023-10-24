@@ -12,10 +12,7 @@
     "test:package2": "npm run test --workspace=package-2",
     "test:all": "npm run test --workspaces --if-present"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/peppermintc/npm-workspaces.git"
-  },
+  "repository": "github:peppermintc/npm-workspaces",
   "author": "peppermintc",
   "license": "ISC",
   "bugs": {
