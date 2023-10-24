@@ -7,6 +7,7 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node index",
     "test:root": "echo \"root: no test specified\"",
     "test:package1": "npm run test --workspace=package-1",
     "test:package2": "npm run test --workspace=package-2",
@@ -23,5 +24,8 @@
   "workspaces": [
     "packages/package-1",
     "packages/package-2"
-  ]
+  ],
+  "config": {
+    "port": 3000
+  }
 }
