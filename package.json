@@ -19,7 +19,8 @@
   "author": "peppermintc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/peppermintc/npm-workspaces/issues"
+    "url": "https://github.com/peppermintc/npm-workspaces/issues",
+    "email": "haminjp@naver.com"
   },
   "homepage": "https://github.com/peppermintc/npm-workspaces#readme",
   "workspaces": [
