@@ -28,5 +28,8 @@
   "config": {
     "port": 3000,
     "packageAuthor": "Hamin Park"
-  }
+  },
+  "os": [
+    "!win32"
+  ]
 }
