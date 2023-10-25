@@ -7,7 +7,9 @@
     "test": "test"
   },
   "scripts": {
+    "prestart": "node preStart",
     "start": "node index",
+    "poststart": "node postStart",
     "test:root": "echo \"root: no test specified\"",
     "test:package1": "npm run test --workspace=package-1",
     "test:package2": "npm run test --workspace=package-2",
